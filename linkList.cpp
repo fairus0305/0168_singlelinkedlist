@@ -24,6 +24,7 @@ public:
         cout << "\nmasukan nomor mahasiswa: ";
         cin >> nim;
 
-       
+        Node *nodeBaru = new Node;
+        nodeBaru->noMHs = nim;
     }
 };
