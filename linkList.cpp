@@ -34,6 +34,13 @@ public:
                 cout << "\nDuplikasi noMhs tidak di ijinkan\n";
                 return;
             }
-            
+            nodeBaru->next = START;
+            START = nodeBaru;
+            return;
+
+            Node *previus = START;
+            Node *current = START;
+
+           
     }
 };
