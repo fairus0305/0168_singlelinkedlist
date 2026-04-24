@@ -4,7 +4,7 @@ using namespace std;
 class Node
 {
     public:
-        int noMHs;
+        int noMhs;
         Node *next;
 };
 
@@ -25,6 +25,15 @@ public:
         cin >> nim;
 
         Node *nodeBaru = new Node;
-        nodeBaru->noMHs = nim;
+        nodeBaru->noMhs = nim;
+
+        if (START == NULL || nim <= START->noMhs)
+        {
+            if ((START != NULL) && (nim == START->noMhs))
+            {
+                cout << "\nDuplikasi noMhs tidak di ijinkan\n";
+                return;
+            }
+            
     }
 };
