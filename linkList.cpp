@@ -7,3 +7,8 @@ class Node
         int noMHs;
         Node *next;
 };
+
+class LinkedList
+{
+    
+};
